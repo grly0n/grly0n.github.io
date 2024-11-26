@@ -1,5 +1,14 @@
 body {
     margin: 0;
-    background: pink;
+    background: black;
     text-align: center;
+}
+
+h1 {
+    color:dimgray;
+}
+
+p {
+    color:gray;
+    font: italic bold small-caps 19px Georgia;
 }
