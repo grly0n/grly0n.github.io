@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(212, 208, 208);
+  background: slateblue;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid red;
+}
+
+main {
+  background-color: #ffedb8;
+  height: 75%;
+  min-height: 500px;
+}
