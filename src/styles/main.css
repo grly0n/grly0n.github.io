@@ -21,11 +21,20 @@ a:hover {
   margin: 0.25rem;
 }
 
+p {
+  padding: 0.5rem 0;
+}
+
+/* Page structure */
 body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(to bottom right, red, blue);
+  background: linear-gradient(
+    to bottom right,
+    rgb(122, 248, 106),
+    rgb(80, 80, 165)
+  );
 }
 
 main {
@@ -58,17 +67,20 @@ main {
   padding: 1rem;
   border: 0.5rem solid var(--border-color);
   overflow: auto;
-  flex-grow: 1;
-}
-
-h1 {
-  padding: 5rem;
+  width: 100rem;
 }
 
 /* Navbar */
 aside {
   border: 0.5rem solid var(--border-color);
   padding: 0 1rem;
+  width: 30rem;
+}
+
+@media screen and (max-width: 600px) {
+  aside {
+    display: none;
+  }
 }
 
 .aside-header {
